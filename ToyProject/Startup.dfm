@@ -510,4 +510,31 @@ object Form1: TForm1
     TabOrder = 7
     OnClick = Button1Click
   end
+  object Button2: TButton
+    Left = 97
+    Top = 207
+    Width = 75
+    Height = 25
+    Caption = 'Forzao'
+    TabOrder = 8
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 178
+    Top = 207
+    Width = 75
+    Height = 25
+    Caption = 'Whilezao'
+    TabOrder = 9
+    OnClick = Button3Click
+  end
+  object btn_next_screen: TButton
+    Left = 316
+    Top = 263
+    Width = 75
+    Height = 25
+    Caption = 'Next Screen'
+    TabOrder = 10
+    OnClick = btn_next_screenClick
+  end
 end
